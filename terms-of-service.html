@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Vestara House Cleaning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='48' r='38' fill='%230B1B3A'/%3E%3Ccircle cx='50' cy='48' r='36' fill='none' stroke='%232CB6D6' stroke-width='6'/%3E%3Cpolyline points='22,60 50,32 78,60' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='62' y='36' width='8' height='16' fill='%232CB6D6'/%3E%3Crect x='43' y='54' width='6' height='6' fill='%232CB6D6'/%3E%3Crect x='51' y='54' width='6' height='6' fill='%232CB6D6'/%3E%3Crect x='43' y='62' width='6' height='6' fill='%232CB6D6'/%3E%3Crect x='51' y='62' width='6' height='6' fill='%232CB6D6'/%3E%3Cpath d='M74,16 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 l6,-2 z' fill='white'/%3E%3Cpath d='M83,25 l1.5,4 l4,1.5 l-4,1.5 l-1.5,4 l-1.5,-4 l-4,-1.5 l4,-1.5 z' fill='white'/%3E%3Cpath d='M16,72 Q34,84 50,74 T84,76' fill='none' stroke='%232CB6D6' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --navy:#0B1B3A;
+    --navy-light:#12264D;
+    --navy-lighter:#1A3363;
+    --teal:#2CB6D6;
+    --teal-dark:#1E93AE;
+    --white:#FFFFFF;
+    --gray-bg:#F4F7FA;
+    --gray-text:#5B677A;
+    --dark-text:#152238;
+    --shadow: 0 10px 30px rgba(11,27,58,0.08);
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{ font-family:'Inter',sans-serif; color:var(--dark-text); background:var(--gray-bg); line-height:1.6; }
+  h1,h2,h3,h4{ font-family:'Poppins',sans-serif; }
+  a{ text-decoration:none; color:inherit; }
+  ul{ list-style:none; }
+  img{ max-width:100%; display:block; }
+  .container{ max-width:1180px; margin:0 auto; padding:0 24px; }
+  .btn{ display:inline-flex; align-items:center; gap:8px; padding:14px 28px; border-radius:8px; font-weight:600; font-size:0.95rem; cursor:pointer; border:2px solid transparent; transition:.2s ease; }
+  .btn-primary{ background:var(--teal); color:var(--navy); }
+  .btn-primary:hover{ background:var(--teal-dark); color:var(--white); }
+
+  /* Header (same as main site) */
+  header{ position:sticky; top:0; z-index:100; background:var(--navy); box-shadow:0 2px 12px rgba(0,0,0,0.15); }
+  .nav-wrap{ display:flex; align-items:center; justify-content:space-between; padding:14px 24px; }
+  .logo{ display:flex; align-items:center; gap:12px; line-height:1; }
+  .logo-icon{ width:50px; height:50px; flex-shrink:0; filter:drop-shadow(0 2px 6px rgba(0,0,0,0.25)); }
+  .logo-text{ display:flex; flex-direction:column; }
+  .logo .top{ font-weight:800; font-size:1.55rem; color:var(--white); letter-spacing:1px; white-space:nowrap; }
+  .logo .bottom{ font-size:0.62rem; letter-spacing:3px; color:var(--teal); font-weight:600; margin-top:2px; white-space:nowrap; }
+  .header-actions{ display:flex; align-items:center; gap:18px; }
+  .header-phone{ color:var(--white); font-weight:600; font-size:0.9rem; display:flex; align-items:center; gap:8px; }
+  .header-phone i{ color:var(--teal); }
+
+  /* Legal content */
+  .legal-hero{ background:linear-gradient(135deg,var(--navy) 0%, var(--navy-light) 60%, var(--navy-lighter) 100%); color:var(--white); padding:56px 24px 40px; text-align:center; }
+  .legal-hero .breadcrumb{ font-size:0.85rem; color:rgba(255,255,255,0.6); margin-bottom:14px; }
+  .legal-hero .breadcrumb a{ color:var(--teal); }
+  .legal-hero h1{ font-size:2.1rem; font-weight:800; }
+  .legal-hero .meta{ margin-top:12px; font-size:0.85rem; color:rgba(255,255,255,0.6); }
+  .legal-wrap{ padding:56px 24px 90px; }
+  .legal-card{ max-width:780px; margin:0 auto; background:var(--white); border-radius:18px; box-shadow:var(--shadow); padding:48px 52px; }
+  .legal-card h2{ color:var(--navy); font-size:1.15rem; margin-top:34px; margin-bottom:12px; padding-top:18px; border-top:1px solid #EAEFF5; }
+  .legal-card h2:first-child{ margin-top:0; padding-top:0; border-top:none; }
+  .legal-card h3{ color:var(--teal-dark); font-size:0.95rem; margin-top:20px; margin-bottom:10px; text-transform:uppercase; letter-spacing:0.4px; }
+  .legal-card p{ color:var(--gray-text); font-size:0.94rem; margin-bottom:12px; }
+  .legal-card ul{ list-style:disc; padding-left:22px; margin-bottom:14px; }
+  .legal-card li{ color:var(--gray-text); font-size:0.94rem; margin-bottom:6px; line-height:1.5; }
+  .legal-nav-link{ display:inline-flex; align-items:center; gap:8px; margin-top:28px; color:var(--teal-dark); font-weight:600; font-size:0.9rem; }
+  .legal-nav-link:hover{ color:var(--navy); }
+  .other-doc{ text-align:center; margin-top:22px; font-size:0.88rem; color:var(--gray-text); }
+  .other-doc a{ color:var(--teal-dark); font-weight:600; }
+
+  /* Footer (same as main site) */
+  footer{ background:var(--navy-light); color:rgba(255,255,255,0.85); padding:64px 24px 24px; }
+  .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px; padding-bottom:40px; border-bottom:1px solid rgba(255,255,255,0.1); }
+  .footer-brand .logo-icon{ width:44px; height:44px; }
+  .footer-brand .logo .top{ font-size:1.3rem; }
+  .footer-brand p{ margin-top:14px; font-size:0.88rem; color:rgba(255,255,255,0.6); max-width:280px; }
+  .footer-col h5{ font-size:0.9rem; margin-bottom:16px; color:var(--white); }
+  .footer-col li{ margin-bottom:10px; font-size:0.88rem; color:rgba(255,255,255,0.65); display:flex; align-items:center; gap:10px; }
+  .footer-col i{ color:var(--teal); width:16px; }
+  .footer-col li a{ color:inherit; }
+  .footer-col li a:hover{ color:var(--teal); }
+  .footer-social{ display:flex; gap:12px; margin-top:20px; }
+  .footer-social a{ width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.18); display:flex; align-items:center; justify-content:center; color:var(--white); font-size:1.05rem; transition:.2s; }
+  .footer-social a:hover{ background:var(--teal); color:var(--navy); border-color:var(--teal); }
+  .footer-bottom{ text-align:center; font-size:0.78rem; color:rgba(255,255,255,0.45); padding-top:22px; }
+
+  @media (max-width: 860px){
+    .footer-grid{ grid-template-columns:1fr; }
+  }
+  @media (max-width: 760px){
+    .header-phone{ display:none; }
+    .legal-card{ padding:32px 22px; }
+    .logo-icon{ width:36px; height:36px; }
+    .logo .top{ font-size:1.1rem; }
+    .logo .bottom{ font-size:0.52rem; letter-spacing:2px; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <a href="/" class="logo">
+        <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="48" r="36" fill="none" stroke="#2CB6D6" stroke-width="6"/>
+          <polyline points="22,60 50,32 78,60" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="62" y="36" width="8" height="16" fill="#2CB6D6"/>
+          <rect x="43" y="54" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="51" y="54" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="43" y="62" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="51" y="62" width="6" height="6" fill="#2CB6D6"/>
+          <path d="M74,16 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 l6,-2 z" fill="#FFFFFF"/>
+          <path d="M83,25 l1.5,4 l4,1.5 l-4,1.5 l-1.5,4 l-1.5,-4 l-4,-1.5 l4,-1.5 z" fill="#FFFFFF"/>
+          <path d="M16,72 Q34,84 50,74 T84,76" fill="none" stroke="#2CB6D6" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+        <div class="logo-text">
+          <span class="top">VESTARA</span>
+          <span class="bottom">HOUSE CLEANING</span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <a href="tel:3202001401" class="header-phone"><i class="fa-solid fa-phone"></i> 320-200-1401</a>
+        <a href="/#quote" class="btn btn-primary" style="padding:10px 20px;">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="legal-hero">
+    <div class="breadcrumb"><a href="/">Home</a> / Terms of Service</div>
+    <h1>Terms of Service</h1>
+    <div class="meta">Effective Date: August 7, 2026 &nbsp;|&nbsp; Last Updated: August 7, 2026</div>
+  </section>
+
+  <section class="legal-wrap">
+    <div class="legal-card">
+      <p>These Terms of Service (“Terms”) govern your use of the Vestara House Cleaning website, quote request forms, booking tools, communications, and residential cleaning services provided by Vestara Cleaning LLC, operating as Vestara House Cleaning (“Vestara,” “we,” “us,” or “our”).</p>
+      <p>By accessing our website, submitting a quote request, requesting or confirming an appointment, or using our services, you agree to these Terms as applicable to your interaction with Vestara.</p>
+      <p>Submitting a quote request does not, by itself, guarantee availability or create a confirmed cleaning appointment.</p>
+      <h2>1. ABOUT VESTARA HOUSE CLEANING</h2>
+      <p>Vestara House Cleaning provides residential cleaning services in St. Cloud, Minnesota and selected surrounding communities in Central Minnesota.</p>
+      <p>Our services may include:</p>
+      <ul>
+      <li>Standard residential cleaning</li>
+      <li>Recurring residential cleaning</li>
+      <li>Deep cleaning</li>
+      <li>Move-in cleaning</li>
+      <li>Move-out cleaning</li>
+      <li>One-time cleaning</li>
+      <li>Apartment cleaning</li>
+      <li>Condo cleaning</li>
+      <li>Townhome cleaning</li>
+      <li>Approved residential cleaning add-ons</li>
+      </ul>
+      <p>We do not provide commercial janitorial services unless Vestara expressly agrees otherwise in writing.</p>
+      <p>Specific services, areas, tasks, pricing, frequency, and add-ons are determined by the quote, service request, or appointment confirmation applicable to the customer.</p>
+      <h2>2. ELIGIBILITY</h2>
+      <p>You must be at least 18 years old and legally capable of entering into an agreement to request or authorize cleaning services.</p>
+      <p>If you request service for a property you do not own, you represent that you have permission from the owner, landlord, property manager, tenant, or other authorized person to order the requested services.</p>
+      <h2>3. QUOTE REQUESTS</h2>
+      <p>Our website and ZenMaid form are intended primarily to collect information so that we can evaluate your cleaning needs.</p>
+      <p>Submitting a “Request Free Quote,” “Get a Quote,” or similar form:</p>
+      <ul>
+      <li>Is not a guarantee of service;</li>
+      <li>Does not guarantee a particular price;</li>
+      <li>Does not guarantee a requested date or time;</li>
+      <li>Does not automatically create a confirmed appointment; and</li>
+      <li>Does not require Vestara to accept the requested work.</li>
+      </ul>
+      <p>A cleaning appointment becomes confirmed only after Vestara accepts the request and communicates confirmation to the customer.</p>
+      <p>Confirmation may be provided by email, SMS, telephone, ZenMaid, or another written electronic method.</p>
+      <h2>4. ACCURACY OF INFORMATION</h2>
+      <p>Quotes and estimated service times depend on the information supplied by the customer.</p>
+      <p>You agree to provide accurate information regarding matters such as:</p>
+      <ul>
+      <li>Property type;</li>
+      <li>Service address;</li>
+      <li>Approximate square footage;</li>
+      <li>Number of bedrooms;</li>
+      <li>Number and type of bathrooms;</li>
+      <li>Number of levels;</li>
+      <li>Finished basement areas;</li>
+      <li>Current condition of the property;</li>
+      <li>Level of buildup or clutter;</li>
+      <li>Pets;</li>
+      <li>Occupancy or vacancy;</li>
+      <li>Previous professional cleaning;</li>
+      <li>Access conditions;</li>
+      <li>Requested cleaning type;</li>
+      <li>Requested add-ons; and</li>
+      <li>Any unusual circumstances that could materially affect the work.</li>
+      </ul>
+      <p>If the actual property or requested work differs materially from the information supplied, Vestara may revise the estimated price, estimated duration, service type, staffing needs, or scope of work.</p>
+      <p>When reasonably possible, we will communicate a material price adjustment before performing work beyond the originally anticipated scope.</p>
+      <p>If the parties cannot agree on a revised scope or price, Vestara may limit the service to the confirmed scope, reschedule the appointment, or decline to perform the service.</p>
+      <h2>5. PRICING</h2>
+      <p>Prices may depend on factors including:</p>
+      <ul>
+      <li>Property size;</li>
+      <li>Bedrooms and bathrooms;</li>
+      <li>Type of cleaning;</li>
+      <li>Current condition;</li>
+      <li>Frequency;</li>
+      <li>Add-ons;</li>
+      <li>Excessive buildup;</li>
+      <li>Excessive pet hair;</li>
+      <li>Accessibility;</li>
+      <li>Occupancy;</li>
+      <li>Requested timing; and</li>
+      <li>Other factors reasonably affecting the time or difficulty of the work.</li>
+      </ul>
+      <p>A website estimate, preliminary quote, advertisement, or promotional price is not necessarily a final price unless Vestara specifically confirms it as such.</p>
+      <p>Recurring-service discounts, promotions, coupons, introductory offers, or other discounts are subject to their stated conditions.</p>
+      <p>Vestara may change pricing for future appointments. Any pricing change affecting an already confirmed appointment will be communicated when appropriate before the service is performed.</p>
+      <h2>6. RECURRING CLEANING</h2>
+      <p>Recurring cleaning may be offered on schedules such as:</p>
+      <ul>
+      <li>Weekly;</li>
+      <li>Every two weeks;</li>
+      <li>Monthly; or</li>
+      <li>Another schedule approved by Vestara.</li>
+      </ul>
+      <p>Recurring pricing assumes that the property is cleaned at approximately the agreed frequency.</p>
+      <p>If appointments are repeatedly skipped, substantially delayed, paused, or canceled, the property may require additional work. Vestara may therefore adjust the price or recommend a different service type, including a deep cleaning, before regular recurring service resumes.</p>
+      <p>Either Vestara or the customer may discontinue future recurring service, subject to any applicable cancellation obligations for appointments that are already confirmed.</p>
+      <h2>7. SERVICE SCOPE</h2>
+      <p>Only tasks included in the selected and confirmed service are included.</p>
+      <p>Standard cleaning, deep cleaning, move-in/move-out cleaning, and add-on services may have different scopes.</p>
+      <p>Customers are responsible for reviewing the selected service and identifying any specific priorities before service begins.</p>
+      <p>Unless specifically included, cleaning services do not automatically include every surface, object, appliance interior, cabinet interior, window, blind, wall, baseboard, door, garage, balcony, or specialized task.</p>
+      <h2>8. SERVICE EXTRAS AND ADD-ONS</h2>
+      <p>Vestara may offer optional add-ons such as:</p>
+      <ul>
+      <li>Inside refrigerator cleaning;</li>
+      <li>Inside oven cleaning;</li>
+      <li>Inside kitchen cabinets;</li>
+      <li>Interior windows;</li>
+      <li>Baseboards;</li>
+      <li>Blinds;</li>
+      <li>Interior doors and frames;</li>
+      <li>Wall spot cleaning;</li>
+      <li>Excessive pet hair removal;</li>
+      <li>Dishwashing;</li>
+      <li>Bed linen changes;</li>
+      <li>Garage sweeping;</li>
+      <li>Balcony or patio sweeping;</li>
+      <li>Additional rooms; and</li>
+      <li>Other specifically offered services.</li>
+      </ul>
+      <p>An add-on must be selected or otherwise approved before it becomes part of the expected scope.</p>
+      <p>An add-on description refers only to ordinary residential cleaning associated with that task.</p>
+      <p>For example, “Garage Sweep” does not include junk hauling, hazardous-material removal, pressure washing, or heavy debris removal unless specifically agreed.</p>
+      <h2>9. ARRIVAL WINDOWS</h2>
+      <p>Vestara may provide an estimated arrival time or arrival window rather than an exact arrival time.</p>
+      <p>Arrival and completion times may be affected by:</p>
+      <ul>
+      <li>Traffic;</li>
+      <li>Weather;</li>
+      <li>Road conditions;</li>
+      <li>Earlier appointments;</li>
+      <li>Unexpected property conditions;</li>
+      <li>Staffing;</li>
+      <li>Customer access;</li>
+      <li>Equipment issues; or</li>
+      <li>Other circumstances outside our reasonable control.</li>
+      </ul>
+      <p>Customers should keep their contact telephone available on the day of service.</p>
+      <p>An arrival window is an estimate and not a guarantee that the cleaning team will arrive at one exact minute.</p>
+      <h2>10. ACCESS TO THE PROPERTY</h2>
+      <p>The customer must provide safe and timely access to the property.</p>
+      <p>Access may be provided through:</p>
+      <ul>
+      <li>The customer or another authorized person;</li>
+      <li>Door key;</li>
+      <li>Lockbox;</li>
+      <li>Keypad;</li>
+      <li>Garage code;</li>
+      <li>Building management;</li>
+      <li>Concierge;</li>
+      <li>Electronic access system; or</li>
+      <li>Another method accepted by Vestara.</li>
+      </ul>
+      <p>Customers are responsible for ensuring that all access instructions are accurate and functional.</p>
+      <p>If our cleaning team cannot access the property at the scheduled time, Vestara may treat the appointment as a lockout or late cancellation.</p>
+      <p>For security reasons, customers should notify Vestara promptly if a key, code, alarm instruction, or other access method changes.</p>
+      <h2>11. UTILITIES AND WORKING CONDITIONS</h2>
+      <p>The property must have reasonable conditions necessary to perform residential cleaning.</p>
+      <p>Unless otherwise agreed, this includes:</p>
+      <ul>
+      <li>Running water;</li>
+      <li>Working electricity;</li>
+      <li>Reasonable indoor temperature;</li>
+      <li>Safe walking surfaces;</li>
+      <li>Adequate lighting where reasonably necessary; and</li>
+      <li>Safe access to the areas being cleaned.</li>
+      </ul>
+      <p>Vestara may decline, discontinue, or reschedule work if the conditions are unsafe or make ordinary residential cleaning impractical.</p>
+      <h2>12. CLUTTER AND PERSONAL PROPERTY</h2>
+      <p>Customers should remove excessive clutter before the cleaning appointment when clutter would prevent access to surfaces or rooms.</p>
+      <p>Vestara is not responsible for organizing personal property unless organization has been expressly included in the service.</p>
+      <p>Our team may clean around items that cannot reasonably or safely be moved.</p>
+      <p>We are not required to move heavy furniture, large appliances, overloaded shelving, electronics, or other items that may create a risk of injury or property damage.</p>
+      <h2>13. VALUABLE, FRAGILE, OR SENSITIVE ITEMS</h2>
+      <p>Before service begins, customers should safely store or identify:</p>
+      <ul>
+      <li>Cash;</li>
+      <li>Jewelry;</li>
+      <li>Medications;</li>
+      <li>Firearms and ammunition;</li>
+      <li>Important documents;</li>
+      <li>Collectibles;</li>
+      <li>Antiques;</li>
+      <li>Artwork;</li>
+      <li>Sentimental items;</li>
+      <li>Highly fragile items; and</li>
+      <li>Other unusually valuable property.</li>
+      </ul>
+      <p>Customers should also identify items that are loose, unstable, damaged, improperly installed, or unusually delicate.</p>
+      <p>Vestara reserves the right not to clean an item or area when doing so could reasonably create a risk of damage.</p>
+      <h2>14. PETS</h2>
+      <p>Customers must disclose pets that will be present at the property.</p>
+      <p>Friendly pets may remain in the home if they do not interfere with safe cleaning.</p>
+      <p>Animals that are aggressive, territorial, highly anxious, likely to escape, or likely to interfere with our cleaning personnel must be safely secured.</p>
+      <p>Vestara may decline or discontinue service if an animal presents a safety risk.</p>
+      <p>Customers are responsible for informing us about special access precautions involving pets.</p>
+      <p>Vestara is not responsible for an animal escaping or becoming distressed when the event was not caused by Vestara’s negligence.</p>
+      <h2>15. CHILDREN AND OTHER OCCUPANTS</h2>
+      <p>Children, occupants, visitors, contractors, and other persons present during cleaning must not create unsafe working conditions or materially prevent completion of the service.</p>
+      <p>Vestara may request that an area be temporarily cleared when necessary to safely perform the work.</p>
+      <h2>16. HAZARDOUS OR SPECIALIZED CLEANING</h2>
+      <p>Vestara provides ordinary residential cleaning and is not a hazardous-material, biohazard, restoration, remediation, pest-control, crime-scene, or medical-waste cleaning company.</p>
+      <p>Unless specifically accepted by Vestara in writing, services do not include cleaning or handling involving:</p>
+      <ul>
+      <li>Blood or significant bodily fluids;</li>
+      <li>Human waste beyond ordinary household conditions;</li>
+      <li>Large quantities of animal waste;</li>
+      <li>Needles or sharps;</li>
+      <li>Medical waste;</li>
+      <li>Crime scenes;</li>
+      <li>Unattended deaths;</li>
+      <li>Unknown chemical substances;</li>
+      <li>Hazardous chemicals;</li>
+      <li>Asbestos;</li>
+      <li>Lead remediation;</li>
+      <li>Active mold remediation;</li>
+      <li>Sewage;</li>
+      <li>Flood remediation;</li>
+      <li>Fire or smoke restoration;</li>
+      <li>Active bedbug, roach, flea, or other significant pest infestations;</li>
+      <li>Hoarding conditions that prevent safe movement;</li>
+      <li>Illegal substances;</li>
+      <li>Dangerous weapons left unsecured; or</li>
+      <li>Any condition reasonably considered dangerous to our personnel.</li>
+      </ul>
+      <p>If an undisclosed unsafe condition is discovered, Vestara may stop work and leave the property.</p>
+      <h2>17. HEIGHTS AND HEAVY WORK</h2>
+      <p>Vestara does not require employees to perform work that involves unsafe climbing, unsafe ladder use, lifting unreasonably heavy objects, or moving heavy furniture or appliances.</p>
+      <p>Areas that cannot reasonably and safely be reached using our normal equipment may be excluded from the service.</p>
+      <h2>18. CLEANING PRODUCTS AND EQUIPMENT</h2>
+      <p>Vestara generally provides the ordinary cleaning supplies and equipment needed for the scheduled service.</p>
+      <p>Customers should disclose surfaces, materials, allergies, manufacturer instructions, or special-care requirements that could affect which products may safely be used.</p>
+      <p>If a customer requests that Vestara use a customer-supplied product, Vestara may decline to use it.</p>
+      <p>If Vestara agrees to use a customer-supplied product, the customer is responsible for informing us of any manufacturer warnings or special instructions associated with that product.</p>
+      <h2>19. RESULTS AND PERMANENT CONDITIONS</h2>
+      <p>Residential cleaning improves cleanliness but cannot guarantee restoration of every surface to a new condition.</p>
+      <p>Vestara does not guarantee complete removal of:</p>
+      <ul>
+      <li>Permanent stains;</li>
+      <li>Discoloration;</li>
+      <li>Etching;</li>
+      <li>Mineral damage;</li>
+      <li>Rust;</li>
+      <li>Mold staining;</li>
+      <li>Permanent odors;</li>
+      <li>Scratches;</li>
+      <li>Damaged finishes;</li>
+      <li>Worn grout;</li>
+      <li>Aged caulk;</li>
+      <li>Hard-water damage;</li>
+      <li>Permanent marks; or</li>
+      <li>Conditions caused by wear, age, defects, or prior damage.</li>
+      </ul>
+      <p>Cleaning results depend on the material, age, maintenance history, condition, and accessibility of the surface.</p>
+      <h2>20. SERVICE QUALITY CONCERNS</h2>
+      <p>If you believe an area included in the confirmed scope was missed or was not reasonably cleaned, please contact Vestara as soon as reasonably possible, preferably within 24 hours after completion.</p>
+      <p>Please describe the concern and provide photographs when useful.</p>
+      <p>After reviewing the issue, Vestara may offer a reasonable corrective cleaning of the affected area.</p>
+      <p>A corrective cleaning is intended to address an included task that was missed or inadequately completed. It does not expand the original service scope.</p>
+      <p>Cleaning concerns do not automatically entitle the customer to a refund.</p>
+      <h2>21. DAMAGE OR BREAKAGE</h2>
+      <p>Vestara will use reasonable care while working inside the customer’s property.</p>
+      <p>If you believe Vestara caused property damage, notify us promptly, preferably within 48 hours of discovering the issue, and provide reasonable documentation.</p>
+      <p>Vestara must be given a reasonable opportunity to inspect and investigate the claimed damage.</p>
+      <p>Vestara is not responsible for damage resulting from:</p>
+      <ul>
+      <li>Pre-existing damage;</li>
+      <li>Ordinary wear and tear;</li>
+      <li>Improper installation;</li>
+      <li>Loose or unstable fixtures;</li>
+      <li>Defective materials;</li>
+      <li>Previously weakened objects;</li>
+      <li>Improperly secured furniture or decorations;</li>
+      <li>Ordinary deterioration of aged surfaces;</li>
+      <li>Manufacturer defects;</li>
+      <li>Conditions not reasonably visible to the cleaning team;</li>
+      <li>Actions of pets, occupants, contractors, or third parties; or</li>
+      <li>Failure to disclose that an item requires special handling.</li>
+      </ul>
+      <p>If Vestara determines that it is responsible for direct property damage, Vestara may address the matter through reasonable repair, replacement, reimbursement, insurance, or another appropriate resolution.</p>
+      <p>Nothing in these Terms eliminates liability that cannot legally be waived under applicable law.</p>
+      <h2>22. CANCELLATIONS AND RESCHEDULING</h2>
+      <p>Customers should provide at least 24 hours’ notice when canceling or rescheduling a confirmed appointment.</p>
+      <p>A late-cancellation, same-day cancellation, or lockout fee may apply when such a fee was disclosed as part of the customer’s booking or confirmation.</p>
+      <p>Situations that may be treated as a late cancellation or lockout include:</p>
+      <ul>
+      <li>Canceling with insufficient notice;</li>
+      <li>The team arriving and being unable to enter;</li>
+      <li>Access codes or keys not working;</li>
+      <li>Required utilities being unavailable;</li>
+      <li>The customer asking the team to leave before work begins for reasons not caused by Vestara; or</li>
+      <li>Undisclosed conditions making the property unsafe to clean.</li>
+      </ul>
+      <p>Any applicable fee will be disclosed before Vestara charges it.</p>
+      <h2>23. CANCELLATIONS BY VESTARA</h2>
+      <p>Vestara may reschedule or cancel an appointment because of:</p>
+      <ul>
+      <li>Severe weather;</li>
+      <li>Unsafe road conditions;</li>
+      <li>Employee illness or emergency;</li>
+      <li>Equipment failure;</li>
+      <li>Unsafe property conditions;</li>
+      <li>Unexpected staffing issues; or</li>
+      <li>Other circumstances reasonably outside our control.</li>
+      </ul>
+      <p>If Vestara cancels a service for which the customer prepaid and the service cannot be rescheduled, the customer will receive an appropriate refund for services not performed.</p>
+      <h2>24. PAYMENT</h2>
+      <p>Payment terms will be disclosed in the applicable quote, appointment confirmation, invoice, or payment request.</p>
+      <p>Payment may be collected through ZenMaid or another third-party payment processor used by Vestara.</p>
+      <p>By voluntarily providing a payment method, the customer authorizes the applicable payment processor and Vestara to process charges that the customer has approved or that are properly due under the confirmed service arrangement.</p>
+      <p>Vestara does not intentionally store full payment-card information when the information is handled directly by a third-party payment processor.</p>
+      <p>Tips are optional unless otherwise expressly stated.</p>
+      <h2>25. REFUNDS</h2>
+      <p>Because cleaning is a service that cannot be returned after it has been performed, Vestara generally prefers to address reasonable quality concerns through corrective service when appropriate.</p>
+      <p>Any refund, partial refund, credit, or corrective cleaning will be evaluated based on the circumstances of the individual service.</p>
+      <p>Nothing in this section limits any refund or remedy required by applicable law.</p>
+      <h2>26. PHOTOGRAPHS AND DOCUMENTATION</h2>
+      <p>Vestara may photograph an area when reasonably necessary to:</p>
+      <ul>
+      <li>Document pre-existing damage;</li>
+      <li>Document unusual property conditions;</li>
+      <li>Evaluate a quote;</li>
+      <li>Verify completion of work;</li>
+      <li>Investigate a customer concern;</li>
+      <li>Document property damage; or</li>
+      <li>Support quality control.</li>
+      </ul>
+      <p>Vestara will not intentionally publish identifiable photographs of a customer’s private residence for advertising or marketing without permission.</p>
+      <p>Customers may decline marketing photography without affecting their eligibility to receive cleaning services.</p>
+      <h2>27. SERVICE COMMUNICATIONS</h2>
+      <p>By providing your telephone number or email address, you authorize Vestara to contact you as reasonably necessary regarding:</p>
+      <ul>
+      <li>Your quote request;</li>
+      <li>Scheduling;</li>
+      <li>Appointment confirmations;</li>
+      <li>Reminders;</li>
+      <li>Arrival information;</li>
+      <li>Access questions;</li>
+      <li>Service updates;</li>
+      <li>Invoices;</li>
+      <li>Payments;</li>
+      <li>Customer support; and</li>
+      <li>Other communications directly related to your requested or existing service.</li>
+      </ul>
+      <h2>28. MARKETING COMMUNICATIONS</h2>
+      <p>Marketing communications are separate from necessary service communications.</p>
+      <p>If you voluntarily consent to receive marketing emails or SMS messages, Vestara may send occasional offers, promotions, reminders, or other marketing communications.</p>
+      <p>Consent to marketing communications is not a condition of purchasing cleaning services.</p>
+      <p>Message frequency may vary. Message and data rates may apply.</p>
+      <p>You may opt out of marketing text messages by replying STOP or using another opt-out method provided in the message.</p>
+      <p>You may unsubscribe from marketing emails using the unsubscribe option contained in the email.</p>
+      <p>Opting out of marketing does not prevent Vestara from sending lawful communications reasonably necessary to administer an existing quote, appointment, transaction, payment, or customer-service matter.</p>
+      <h2>29. THIRD-PARTY PLATFORMS</h2>
+      <p>Vestara may use third-party services to operate our business, including services for:</p>
+      <ul>
+      <li>Booking and scheduling;</li>
+      <li>Website operation;</li>
+      <li>Payment processing;</li>
+      <li>Email;</li>
+      <li>SMS communications;</li>
+      <li>Analytics;</li>
+      <li>Advertising;</li>
+      <li>Customer management; and</li>
+      <li>Other administrative functions.</li>
+      </ul>
+      <p>These services may include ZenMaid and Google services.</p>
+      <p>Your interaction with a third-party platform may also be subject to that provider’s terms and privacy policy.</p>
+      <h2>30. WEBSITE USE</h2>
+      <p>You may use the Vestara website for lawful personal purposes related to learning about or requesting our services.</p>
+      <p>You may not:</p>
+      <ul>
+      <li>Submit knowingly false or fraudulent information;</li>
+      <li>Attempt unauthorized access to our systems;</li>
+      <li>Interfere with website operation;</li>
+      <li>Introduce malicious code;</li>
+      <li>Scrape the website for unauthorized commercial purposes;</li>
+      <li>Impersonate another person;</li>
+      <li>Use the website for illegal activity; or</li>
+      <li>Misuse our forms or communication systems.</li>
+      </ul>
+      <h2>31. INTELLECTUAL PROPERTY</h2>
+      <p>Unless otherwise indicated, Vestara’s business name, branding, original website text, logos, photographs, graphics, and other original materials are owned by or licensed to Vestara.</p>
+      <p>They may not be copied or commercially exploited without authorization except as permitted by law.</p>
+      <h2>32. PRIVACY</h2>
+      <p>Our collection and use of personal information are described in our Privacy Policy.</p>
+      <p>The Privacy Policy is incorporated by reference into these Terms where applicable.</p>
+      <h2>33. LIMITATION OF LIABILITY</h2>
+      <p>To the fullest extent permitted by applicable law, Vestara will not be responsible for indirect, incidental, special, exemplary, punitive, or consequential losses arising from use of the website or cleaning services when such liability may lawfully be limited.</p>
+      <p>Nothing in these Terms excludes or limits liability that cannot legally be excluded or limited.</p>
+      <h2>34. FORCE MAJEURE</h2>
+      <p>Vestara is not responsible for delay or failure to perform when caused by circumstances reasonably outside our control, including severe weather, natural disasters, government restrictions, utility outages, significant transportation disruptions, emergencies, or similar events.</p>
+      <h2>35. GOVERNING LAW</h2>
+      <p>These Terms are governed by the laws of the State of Minnesota, without regard to conflict-of-law principles.</p>
+      <p>Any dispute that cannot reasonably be resolved informally will be handled in a court having lawful jurisdiction.</p>
+      <p>When legally appropriate, venue may be in Stearns County, Minnesota.</p>
+      <h2>36. SEVERABILITY</h2>
+      <p>If any provision of these Terms is determined to be invalid or unenforceable, the remaining provisions will continue in effect to the fullest extent permitted by law.</p>
+      <h2>37. NO WAIVER</h2>
+      <p>A failure by Vestara to enforce a provision of these Terms on one occasion does not constitute a waiver of our ability to enforce that provision later.</p>
+      <h2>38. CHANGES TO THESE TERMS</h2>
+      <p>Vestara may update these Terms from time to time.</p>
+      <p>The current version will be posted on our website with the effective or updated date.</p>
+      <p>Material changes apply prospectively unless otherwise required by law.</p>
+      <h2>39. CONTACT INFORMATION</h2>
+      <p>Vestara Cleaning LLC</p>
+      <p>Operating as Vestara House Cleaning</p>
+      <p>Website:</p>
+      <p>https://vestarahousecleaning.com</p>
+      <p>Email:</p>
+      <p>info@vestarahousecleaning.com</p>
+      <p>Phone:</p>
+      <p>320-200-1401</p>
+      <p>Questions regarding these Terms may be submitted using the contact information above.</p>
+      <a href="/" class="legal-nav-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+    </div>
+    <div class="other-doc">Looking for our <a href="/privacy-policy">Privacy Policy</a>?</div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="48" r="36" fill="none" stroke="#2CB6D6" stroke-width="6"/>
+          <polyline points="22,60 50,32 78,60" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="62" y="36" width="8" height="16" fill="#2CB6D6"/>
+          <rect x="43" y="54" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="51" y="54" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="43" y="62" width="6" height="6" fill="#2CB6D6"/>
+          <rect x="51" y="62" width="6" height="6" fill="#2CB6D6"/>
+          <path d="M74,16 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 l6,-2 z" fill="#FFFFFF"/>
+          <path d="M83,25 l1.5,4 l4,1.5 l-4,1.5 l-1.5,4 l-1.5,-4 l-4,-1.5 l4,-1.5 z" fill="#FFFFFF"/>
+          <path d="M16,72 Q34,84 50,74 T84,76" fill="none" stroke="#2CB6D6" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+            <div class="logo-text"><span class="top">VESTARA</span><span class="bottom">HOUSE CLEANING</span></div>
+          </a>
+          <p>Professional residential cleaning services in St. Cloud, MN and surrounding areas.</p>
+          <div class="footer-social">
+            <a href="mailto:severus@wolvesenterprises.com" title="Email Us" aria-label="Email Us"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.facebook.com/share/18w9AMNeAp/" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.yelp.com/biz/vestara-house-cleaning-st-cloud" target="_blank" rel="noopener" title="Yelp" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:3202001401">320-200-1401</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@vestarahousecleaning.com">info@vestarahousecleaning.com</a></li>
+            <li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/share/18w9AMNeAp/" target="_blank" rel="noopener">VestaraHouseCleaning</a></li>
+            <li><i class="fa-solid fa-globe"></i> <a href="https://vestarahousecleaning.com" target="_blank" rel="noopener">vestarahousecleaning.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#why">Why Choose Us</a></li>
+            <li><a href="/#quote">Get a Quote</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Vestara Cleaning LLC. Residential · St Cloud, MN · Surrounding Areas.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
